@@ -7,4 +7,5 @@ La Barberia N.W.A de la ciudad de Cartago Valle, contrato a 3 estudiantes del pr
 
 - *Apartado de Enlaces*: La pagina anterior si bien contaba con enlaces de redirigimiento estos enlaces no contaban con interacion ni cumplian con la funcion de redirigir al usuario.
 - *Re Escritura del Codigo*: Dado que el Proyecto es algo viejo el codigo esta algo obsoleto y un poco complejo de leer ya que no hay comentarios que explique que se hace en cada linea de codigo, lo que hace obligatorio que sea muy necesario re hacer toda la pagina utilizanto las ultimas versiones de tecnologias que sean adaptables a los navegadores.
-- *Apartado Visual*: En la pagina anterior los antiguos desarrolladores utilizaron malas practicas a la hora del desarrollo de la aplicacion
+- *Apartado Visual*: En la pagina anterior los antiguos desarrolladores utilizaron malas practicas a la hora del desarrollo de la aplicacion lo que genera que la pagina esteticamente no se vea muy bien, hay siertas secciones un poco desalineadas.
+- - *Responsividad en la Pagina*: Una de las cosas que visualmente .
