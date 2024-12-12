@@ -1,0 +1,45 @@
+
+section{
+    background-color:#ffffff;
+    padding: 10px;
+    margin:  10px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+div.container img.equipo{
+    float: right;
+    margin-left: 15px;
+    
+}
+
+aside{
+    margin: auto;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 60px;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.sub{
+    font-size: 34px;
+    font-family: "Courier New", Courier, monospace;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline calc(50% - 13px) #bf9f60;
+}
+
+.equipo {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+section {
+    overflow: hidden;
+}
