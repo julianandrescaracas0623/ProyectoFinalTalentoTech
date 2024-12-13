@@ -1,7 +1,6 @@
 /* con Root podemos crear variables para reutilizar estilos por eso es bueno usar SASS */
 :root{
     --color-hover-enlaces: darkgoldenrod;
-
 }
 
 h3,p {
