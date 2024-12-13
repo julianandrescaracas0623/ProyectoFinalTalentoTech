@@ -1,0 +1,60 @@
+/* --- Contenedor Principal --- */
+.citas_horarios {
+    background-color: #f8f9fa; /* Fondo suave para la sección */
+    padding: 20px 0; /* Espaciado superior e inferior */
+}
+
+/* --- Caja del Formulario --- */
+.citas_horarios .bg-light {
+    background-color: #fff !important; /* Fondo blanco */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* --- Título del Formulario --- */
+.citas_horarios h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* --- Campos de Entrada --- */
+.controls {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.controls:focus {
+    border-color: #bf9f60; /* Borde dorado en foco */
+    box-shadow: 0 0 5px rgba(191, 159, 96, 0.5);
+    outline: none;
+}
+
+/* --- Botón Registrar --- */
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.btn-dark:hover{
+    background-color: #bf9f60; /* Color dorado al pasar el mouse */
+    color: #fff;
+}
+
+/* --- Términos y enlaces --- */
+.citas_horarios a{
+    text-decoration: none;
+    color: #bf9f60;
+}
+
+.citas_horarios a:hover {
+    color: #333;
+    text-decoration: underline;
+}
