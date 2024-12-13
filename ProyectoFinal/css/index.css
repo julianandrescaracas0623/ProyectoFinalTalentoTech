@@ -7,14 +7,18 @@
     gap: 20px;
 }
 
+
 .tarjeta-producto{
     max-width: 200px;
     text-align: center;
-    background-color:var(--color-hover-enlaces);
+    background-color:darkgray;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.228);
     transition: 200ms;
+    font-family: 'Times New Roman', Times, serif;
+
+
 }
 
 .tarjeta-producto:hover {
@@ -24,6 +28,10 @@
 
 
 .tarjeta-producto img{
-    width:20%;
+    width:30%;
     aspect-ratio: 1,5;
+    background-color:#fff;
+    border-radius: 10px;
+    image-rendering:optimizeQuality;
+    image-resolution: 300dpi;
 }
