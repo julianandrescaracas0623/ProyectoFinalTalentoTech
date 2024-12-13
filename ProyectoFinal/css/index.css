@@ -10,7 +10,7 @@
 .tarjeta-producto{
     max-width: 200px;
     text-align: center;
-    background-color: var(--color-hover-enlaces);
+    background-color:var(--color-hover-enlaces);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.228);
