@@ -1,0 +1,91 @@
+/* Estilo global para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Color de fondo general */
+    color: #333;
+}
+
+/* Espaciado general entre secciones */
+section {
+    margin: 50px 0; /* Espaciado arriba y abajo */
+    padding: 30px 15px; /* Espaciado interno */
+}
+
+/* Contenedor centralizado */
+.container, .contenedor {
+    max-width: 1200px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Sección "Quienes Somos" */
+#quinesSomos .sub {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#quinesSomos img {
+    width: 100%;
+    max-width: 500px; /* Ancho máximo para la imagen */
+    display: block;
+    margin: 20px auto; /* Centrar la imagen */
+    border-radius: 10px;
+}
+
+#quinesSomos aside {
+    text-align: justify;
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+/* Sección "Nuestros Servicios" */
+#servicios {
+    background-color: #f4f4f4; /* Color de fondo suave */
+    padding: 40px 0;
+}
+
+#servicios .sub1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#servicios .servi {
+    width: 100%;
+    max-width: 600px; /* Ancho máximo */
+    display: block;
+    margin: 0 auto 20px; /* Centrada con espacio inferior */
+    border-radius: 10px;
+}
+
+#servicios .lorem1 {
+    text-align: justify;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .container, .contenedor {
+        padding: 15px; /* Menor padding en pantallas pequeñas */
+    }
+
+    section {
+        margin: 30px 0;
+    }
+
+    #quinesSomos .sub, #servicios .sub1 {
+        font-size: 1.5rem; /* Tamaño de título más pequeño */
+    }
+
+    #quinesSomos aside, #servicios .lorem1 {
+        font-size: 1rem; /* Ajuste de tamaño de fuente */
+    }
+}
