@@ -43,3 +43,7 @@ aside{
 section {
     overflow: hidden;
 }
+
+html {
+    scroll-behavior: smooth;
+}
