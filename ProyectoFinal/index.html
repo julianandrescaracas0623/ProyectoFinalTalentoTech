@@ -15,7 +15,7 @@
 
 <body>
 
-  <header>
+  <header id="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -37,10 +37,10 @@
                 Servicios
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Corte</a></li>
-                <li><a class="dropdown-item" href="#">Barba</a></li>
+                <li><a class="dropdown-item" href="#servicios">Corte</a></li>
+                <li><a class="dropdown-item" href="#servicios">Barba</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Otros servicios</a></li>
+                <li><a class="dropdown-item" href="#servicios">Otros servicios</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -50,18 +50,25 @@
               <a class="nav-link" href="#">Horarios</a>
             </li>
           </ul>
-          
           <!-- Botón del carrito -->
-          <button id="boton-carrito" class="btn btn-outline-dark position-relative">
-            <img src="img carrito/carrito-de-compras.png" alt="Carrito" width="30px">
-            <span id="contador-carrito" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-              0
-            </span>
+          <button id="boton-carrito" class="btn btn-outline-dark">
+            <img class="carrito" src="img carrito/carrito-de-compras.png" alt="Carrito" width="30px">
           </button>
+          <div id="carrito-desplegable" class="carrito-desplegable oculto">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito"></ul>
+            <p id="total-carrito">Total: $0.00</p>
+         </div>
         </div>
       </div>
     </nav>
 </header>
+
+<div id="carrito-desplegable" class="oculto">
+  <h2>Carrito de Compras</h2>
+  <ul id="lista-carrito"></ul>
+  <p id="total-carrito">Total: $0.00</p>
+</div>
 
 
 <!--Cambiar imagenes al carrusel-->
@@ -88,26 +95,64 @@
   </div>
  </section>
 
-<section id="servicios">
-  <br>
-  <div class="contenedor">
-    <img class="servi" src="./img/barberod.jpg" alt="Foto quienes somos"> <!--En este apartado -->
-    <div>
-      <h2 class="sub1">Nuestros Servicios</h2>
-      <aside class="lorem1">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, porro! Aliquid provident fuga nesciunt
-        ipsam
-        nemo, nihil nulla vitae sequi hic ducimus! Quaerat, deleniti eveniet. Voluptate at minus suscipit
-        necessitatis.
-      </aside>
+ <section id="servicios">
+  <div class="container py-5">
+    <!-- Título y descripción -->
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2 class="sub1">Nuestros Servicios</h2>
+        <aside class="lorem1">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, porro! Aliquid provident fuga nesciunt
+          ipsam nemo, nihil nulla vitae sequi hic ducimus! Quaerat, deleniti eveniet. Voluptate at minus suscipit
+          necessitatibus.
+        </aside>
+      </div>
+    </div>
+
+    <!-- Productos en fila -->
+    <div class="row">
+      <!-- Producto 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="img/cabello.jpg" alt="cabello" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Cabello</h5>
+            <p class="card-text precio">$20.000</p>
+            <button class="btn btn-outline-primary w-100">Comprar</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="img/barba.jpg" alt="barba" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Barba</h5>
+            <p class="card-text precio">$15.000</p>
+            <button class="btn btn-outline-primary w-100">Comprar</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="img/cabello+barba.jpg" alt="cabello_barba" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Cabello y Barba</h5>
+            <p class="card-text precio">$30.000</p>
+            <button class="btn btn-outline-primary w-100">Comprar</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 
-  
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"  crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
