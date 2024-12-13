@@ -49,7 +49,7 @@
                 <a class="nav-link" href="./productos.html" target="_blank">Productos</a> <!--Aqui por medio de este enlace pasamos a una nueva pagina donde estaran los produtos-->
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contactos</a>
+                <a class="nav-link" href="#citas_horarios">Contactos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Horarios</a>
@@ -83,7 +83,7 @@
   </div>
  </section>
 
- <section id="servicios">
+<section id="servicios">
   <div class="container">
       <!-- Título Principal -->
       <h2 class="titulo-seccion">Nuestros Servicios</h2>
@@ -123,10 +123,49 @@
   </div>
 </section>
 
+<section class="citas_horarios py-5" id="citas_horarios">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-5 bg-light p-4 rounded shadow">
 
- <section>
+       
+        <h4 class="text-center mb-4 text-dark fw-bold">Agende su cita</h4>
 
- </section>
+        
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control controls" id="nombres" placeholder="Ingrese su nombre" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control controls" id="apellidos" placeholder="Ingrese su apellido" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control controls" id="correo" placeholder="Ingrese su correo" required>
+          </div>
+          <div class="mb-3">
+            <input type="tel" class="form-control controls" id="telefono" placeholder="Ingrese su teléfono" required>
+          </div>
+
+          
+          <p class="text-center mb-3">
+            Estoy de acuerdo con <a href="https://youtu.be/dQw4w9WgXcQ?si=ewlKzZkTuq1GRBjg" class="text-primary text-decoration-underline" target="_blank">Términos y condiciones</a>
+          </p>
+
+          
+          <div class="d-grid mb-3">
+            <button type="submit" class="btn btn-dark">Registrar</button>
+          </div>
+
+          
+          <p class="text-center">
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=ewlKzZkTuq1GRBjg" class="text-primary" target="_blank">¿Ya tengo cuenta?</a>
+          </p>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
   
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"  crossorigin="anonymous"></script>
