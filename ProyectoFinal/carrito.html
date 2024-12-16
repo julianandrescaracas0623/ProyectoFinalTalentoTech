@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito</title>
     <link rel="stylesheet" href="./css/productos.css">
-    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="/css/cart.css">
     <script src="./js/cartService.js" defer></script>
+    <script src="./js/cart.js " defer></script>
 </head>
 
 <body>
@@ -16,7 +17,7 @@
         <nav>
             <a href="./productos.html"><img src="img/SHAVE-CLUB-LOGO (1).png" alt="logo" id="logo"></a>
             <div>
-            }<a href="">Home</a>
+                <a href="">Home</a>
                 <a href="#">Barberia</a>
                 <a href="#">Belleza</a>
                 <a href="./carrito.html" id="cart"><img src="./img Productos/carrito-de-compras.png" alt="carrito"><span id="contador">0</span></a>
@@ -25,7 +26,15 @@
     </header>
 
 
-    <main></main>
+    <main>
+        <section id="productos-container"></section>
+        <section id="totales">
+            <p>Total Unidades: <span id="unidades">0</span></p>
+            <p>Total Precio: $<span id="precio">0</span></p>
+            <button disabled>Comprar</button>
+            <button>Reiniciar Carrito</button>
+        </section>
+    </main>
 
 
     <footer>

@@ -1,0 +1,26 @@
+#productos-container{ /* Contenedor de las tarjetas */
+ 
+    width: 500px;
+    margin: auto;
+
+}
+
+.tarjeta-producto{
+    display: flex;
+    gap: 20px; /* Lo utilizamos para manejar el Espacio entre elementos */
+    align-items: center;
+}
+
+.tarjeta-producto img{
+    width: 80px;
+    aspect-ratio: 1.5;
+}
+
+.tarjeta-producto h3 {
+    width: 130px;
+    font-family:'Times New Roman', Times, serif
+}
+
+#totales{
+    text-align: center;
+}
