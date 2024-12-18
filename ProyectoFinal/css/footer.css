@@ -1,0 +1,65 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.div__footer {
+    margin-bottom: 20px;
+}
+
+.img__footer {
+    width: 150px;
+}
+
+.subtitulo {
+    margin-bottom: 20px;
+}
+
+.h2__footer {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.p__footer1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contacto {
+    font-size: 16px;
+}
+
+.a__footer {
+    color: #fff;
+    text-decoration: none;
+}
+
+.a__footer:hover {
+    text-decoration: underline;
+}
+
+.redes {
+    margin-top: 20px;
+}
+
+.subti {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.redes a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.redes img {
+    width: 30px;
+    height: 30px;
+}
+
+.p__foot {
+    margin-top: 20px;
+    font-size: 14px;
+}

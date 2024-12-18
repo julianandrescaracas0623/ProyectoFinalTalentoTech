@@ -10,7 +10,7 @@ function crearTarjetasProductosInicio() {
       const nuevoProducto = document.createElement("div");
       nuevoProducto.classList = "tarjeta-producto";
       nuevoProducto.innerHTML = `
-            <img src="/img Productos/${producto.id}.jpg">  
+           <img src="../img Productos/${producto.id}.jpg"> 
             <h3>${producto.nombre}</h3>
             <h4>$${producto.precio}</h4>
             <div>
