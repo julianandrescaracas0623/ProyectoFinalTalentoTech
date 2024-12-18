@@ -1,3 +1,9 @@
+# Aviso 😬
+
+Este proyecto se pondra en pausa por un tiempo, se re organizaran ciertas cosas, para hacer una migracion, he integrar un backend basico, para el tema de la comprar de productos por ende se separara lo que el backed y front, se hara una comunciacion y muestra de datos por medio de una API baasica desarrollada con NodeJS.
+
+---
+
 # Proyecto Final TalentoTech
 
 ## Análisis sobre la actualización de la nueva página web de la Barbería N.W.A
